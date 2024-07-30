@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1010px){
+
+    .card{
+        margin: auto;
+    }
+
+  .none{
+    display: none;
+  }
+  .m{
+    margin-top: 15px;
+  }
+  .social .icon {
+    position: relative;
+    bottom: 22px;
+    right: -36px;
+  }
+
+  .f-h{
+    padding: 30px;
+  }
+}
