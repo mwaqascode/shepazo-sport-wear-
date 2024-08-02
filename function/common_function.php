@@ -40,26 +40,31 @@ function getproducts()
                 <div class="box-content">
                   <div class="social">
                      <div class="icon">
-                        <ul>
+                 <ul>
                             <li>
-                            
-                           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                             <i class="fa fa-eye" aria-hidden="true"></i>
-                           </button>
-                                
-                                
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-product-id="' . $product_id . '">
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                </button>
                                 </li>
 
+                                <li>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                </button>
+                                </li>
 
-                            <li><a href="">
-                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                </a></li>
-                            <li><a href="">
-                                    <i class="fa fa-info" aria-hidden="true"></i>
-                                </a></li>
-                            <li><a href="">
-                                    <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-                                </a></li>
+                            <li>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                             <i class="fa fa-info" aria-hidden="true"></i>
+                           </button>
+                            </li>
+
+                            <li>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                             <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                           </button>
+                            </li>
+
                                  </ul>
                             </div>
                     </div>
@@ -126,27 +131,37 @@ function get_unique_products()
                      <div class="icon">
                         <ul>
                             <li>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                             <i class="fa fa-eye" aria-hidden="true"></i>
-                           </button>
-                                
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                </button>
                                 </li>
 
-                            <li><a href="">
-                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                </a></li>
-                            <li><a href="">
-                                    <i class="fa fa-info" aria-hidden="true"></i>
-                                </a></li>
-                            <li><a href="">
-                                    <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-                                </a></li>
+                                <li>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                </button>
+                                </li>
+
+                            <li>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                             <i class="fa fa-info" aria-hidden="true"></i>
+                           </button>
+                            </li>
+
+                            <li>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                             <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                           </button>
+                            </li>
+
                                  </ul>
                             </div>
                     </div>
                  </div>
+                 
                             
                         </div> 
+                        
                         
                     ';
             }
@@ -196,22 +211,31 @@ function get_search_products()
                 <div class="box-content">
                   <div class="social">
                      <div class="icon">
-                        <ul>
+                  <ul>
                             <li>
-                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                             <i class="fa fa-eye" aria-hidden="true"></i>
-                           </button>
-                                
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                </button>
                                 </li>
-                            <li><a href="">
-                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                </a></li>
-                            <li><a href="">
-                                    <i class="fa fa-info" aria-hidden="true"></i>
-                                </a></li>
-                            <li><a href="">
-                                    <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-                                </a></li>
+
+                                <li>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                </button>
+                                </li>
+
+                            <li>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                             <i class="fa fa-info" aria-hidden="true"></i>
+                           </button>
+                            </li>
+
+                            <li>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                             <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                           </button>
+                            </li>
+
                                  </ul>
                             </div>
                     </div>

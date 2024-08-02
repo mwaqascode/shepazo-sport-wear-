@@ -13,7 +13,7 @@ body {
   font-weight: 400;
   font-style: normal;
   /* overflow: hidden; */
-  overflow-x: hidden; 
+  overflow-x: hidden;
 
 }
 
@@ -365,17 +365,18 @@ body {
 
 
 
-.social .icon{
+.social .icon {
   position: relative;
   bottom: 22px;
   right: 11px;
 }
 
-.social .icon ul li button:hover{
+.social .icon ul li button:hover {
   background-color: var(--primary);
   border: none;
   color: white;
 }
+
 .social .icon ul {
   margin: 0;
   padding-left: 33px;
@@ -391,7 +392,7 @@ body {
 .social .icon ul li button {
   margin: 3px;
   border: 2px solid black;
-  padding: 16px;
+  padding: 15px;
   background: white;
   text-decoration: none;
   color: black;
@@ -409,18 +410,43 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  }
-  
-  .carousel-indicators li {
+}
+
+.carousel-indicators li {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
   background-color: #fff;
   margin: 0 0.25rem;
   cursor: pointer;
-  }
-  
-  .carousel-indicators li.active {
+}
+
+.carousel-indicators li.active {
   background-color: var(--primary);
-  }
-  
+}
+
+.details {
+  margin-top: 12px;
+}
+
+.mdl button {
+  padding: 12px 20px 12px 20px;
+  border-radius: 0;
+  /* text-align: center; */
+  background-color: var(--primary);
+  border: none;
+}
+
+
+#quantity{
+  padding: 25px 5px 25px 5px;
+  border-radius: 0;
+}
+
+.modal-header button{
+  background-color: var(--primary);
+  color: white;
+}
+.modal-header,.modal-footer{
+  border: none;
+}
